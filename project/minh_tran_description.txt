@@ -1,0 +1,15 @@
+Method Description:
+The method utilizes the hybrid approach from the open-sourced Surprise package. The link to the package is here: https://surprise.readthedocs.io/en/stable/index.html. Two approaches are combined with equal weights. They are baseline method and SVD (Singular value decomposition) (https://surprise.readthedocs.io/en/stable/matrix_factorization.html) 
+
+Error Distribution:
+>=0 and <1: 100387
+>=1 and <2: 34131
+>=2 and <3: 6637
+>=3 and <4: 884
+>=4: 5
+
+RMSE:
+1.0000684732891534
+
+Execution Time:
+91.75342631340027
